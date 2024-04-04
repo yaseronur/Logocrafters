@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(270deg, #2c5876, #4d4379);
+}        
+.cerceve{
+
+    width: 30%;
+    overflow:hidden;
+    border: 4px solid red;
+    box-sizing: border-box;
+}
+.galeri{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+}
+.galeri img{
+    width: 25%;
+    float: left;
+}
+
+.anadiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.box{
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+.anadiv {
+    overflow: hidden; /* İçeriklerin taşmasını engeller */
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+@keyframes slayt{
+    0%{left:0%;}
+    20%{left:0%;}
+    25%{left:-100%;}
+    45%{left:-100%;}
+    50%{left:-200%;}
+    70%{left:-200%;}
+    75%{left:-300%;}
+    90%{left:-300%;}
+}
+.ustdiv{
+    width: 100%;
+    height: 17vh;
+    position:absolute;
+    top:0px;
+    font-size: 20px;
+   
+    left: 0%;
+    text-decoration: none;
+    color: black;
+   
+}
+.color{
+    -webkit-text-fill-color:black;
+    text-decoration: none;
+}
+.div1{
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 30px;
+    height: 100%;
+    width: 20%;
+}
+.cerceve1{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h12d{
+    margin-top: 8%;
+    margin-inline-start: 13%;
+}
+.galeri1{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri1:hover{
+    
+}
+.cizgicerceve{
+    -webkit-transition: 1s;
+    transition: 1s;
+
+}
+
+.cizgicerceve:hover{
+    box-shadow: 0 0 10px 10px #B4E4FF;
+    
+}
+.galeri1 img{
+    width: 25%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+    Sıfırlama ve diğer kodlar
+**/
+@import"https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --animation-speed: 300ms;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--animation-speed) all;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(270deg, #444877, #2c5876);
+    border-right: 1px solid #ddd;
+    transform: translateX(-100%);
+    transition: var(--animation-speed) transform;
+}
+.menu ul li {
+    color: white;
+}
+.menu ul li a {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    color: white;
+    
+}
+.menu ul li a:hover {
+    background-color: #049cf9;
+}
+
+.container {
+    height: 100%;
+    transition: var(--animation-speed) transform;
+}
+.container .header {
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 20px;
+}
+.container .actions {
+    margin-left: auto;
+}
+.container .logo {
+    color: #222;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+
+/**
+    Hamburger menu kodları
+**/
+.hamburger-menu {
+    --height: 5px;
+    --space: calc(var(--height) * 2.5);
+    --animation-speed: 300ms;
+    width: calc(var(--space) * 4);
+    height: calc(var(--height) + (var(--space) * 2));
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.hamburger-menu span,
+.hamburger-menu span::before,
+.hamburger-menu span::after {
+    content: '';
+    display: block;
+    height: var(--height);
+    width: 100%;
+    background: #222;
+}
+.hamburger-menu span {
+    transform: translateY(var(--space));
+    transition: var(--animation-speed) var(--animation-speed) background-color;
+}
+.hamburger-menu span::before {
+    position: absolute;
+    bottom: var(--space);
+    transition: var(--animation-speed) transform, var(--animation-speed) var(--animation-speed) bottom;
+}
+.hamburger-menu span::after {
+    position: absolute;
+    top: var(--space);
+    transition: var(--animation-speed) transform, var(--animation-speed) var(--animation-speed) top;
+}
+
+#menu-toggle {
+    display: none;
+}
+#menu-toggle:checked ~ nav.menu {
+    transform: translateX(0);
+}
+#menu-toggle:checked ~ .container {
+    transform: translateX(300px);
+}
+#menu-toggle:checked ~ .container .backdrop {
+    opacity: 1;
+    visibility: visible;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span {
+    background: transparent;
+    transition: var(--animation-speed) background-color;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span::before {
+    transform: rotate(-45deg);
+    bottom: 0;
+    background-color: black;
+    transition: var(--animation-speed) var(--animation-speed) transform, var(--animation-speed) bottom;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span::after {
+    transform: rotate(45deg);
+    top: 0;
+    background-color: black;
+    transition: var(--animation-speed) var(--animation-speed) transform, var(--animation-speed) top;
+}

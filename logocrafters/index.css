@@ -1,0 +1,563 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.cerceve{
+
+    width: 30%;
+    overflow:hidden;
+    border: 4px solid red;
+    box-sizing: border-box;
+}
+.galeri{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+}
+.galeri img{
+    width: 25%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+@keyframes slayt{
+    0%{left:0%;}
+    20%{left:0%;}
+    25%{left:-100%;}
+    45%{left:-100%;}
+    50%{left:-200%;}
+    70%{left:-200%;}
+    75%{left:-300%;}
+    90%{left:-300%;}
+}
+.ustdiv{
+    width: 100%;
+    height: 17vh;
+    position:absolute;
+    top:0px;
+    font-size: 20px;
+   
+    left: 0%;
+    text-decoration: none;
+    color: black;
+   
+}
+.color{
+    -webkit-text-fill-color:black;
+    text-decoration: none;
+}
+.bosdiv1{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(270deg, #2df59a, #049cf9);
+}
+.bosdiv2{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(270deg, #2E8B57, #4169E1);
+}
+.bosdiv3{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(270deg, #2c5876, #4d4379);
+}
+.bosdiv4{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(270deg, #f5d365, #fca186);
+}
+.bosdiv5{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(270deg, #808080, #FF6961);
+}
+.div1{
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 30px;
+    height: 100%;
+    width: 20%;
+}
+.cerceve1{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h12d{
+
+}
+.h12ddiv{
+    margin-inline-start: 35%;
+    margin-top: -10%;
+}
+.h1realdiv{
+    margin-top: -10;
+    margin-inline-start: 35%;
+   
+}
+.h1pencildiv{
+    margin-top: -30;
+    margin-inline-start: 35%;
+}
+.h1logodiv{
+    margin-top: -30;
+    margin-inline-start: 35%;
+}
+.h1colerfuldiv{
+    margin-top: -30;
+    margin-inline-start: 35%;
+    
+}
+
+.galeri1{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri1:hover{
+    
+}
+.cizgicerceve{
+    -webkit-transition: 1s;
+    transition: 1s;
+
+}
+
+.cizgicerceve:hover{
+    box-shadow: 0 0 10px 10px #B4E4FF;
+    
+}
+.galeri1 img{
+    width: 25%;
+    float: left;
+}
+
+
+
+.cerceve2{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h1real{
+    margin-top: 0%;
+}
+.galeri2{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri2:hover{
+    box-shadow: 0 0 10px 10px #FF6D60;
+}
+.galeri2 img{
+    width: 25%;
+    float: left;
+
+}
+
+.cerceve3{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h1pencil{
+    margin-top: 0%;
+}
+.galeri3{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri3:hover{
+    box-shadow: 0 0 10px 10px #344D67;
+}
+.galeri3 img{
+    width: 25%;
+    float: left;
+}
+
+.cerceve4{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h1logo{
+    margin-top: 0%;
+}
+.galeri4{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri4:hover{
+    box-shadow: 0 0 10px 10px #F7F1E5;
+}
+.galeri4 img{
+    width: 25%;
+    float: left;
+   
+}
+
+.cerceve5{
+    width: 30%;
+    overflow:hidden;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+.h1colorful{
+    margin-top: 0%;
+}
+.galeri5{
+    position: relative;
+    width: 400%;
+    left:0%;
+    animation: 16s slayt infinite;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.galeri5:hover{
+    box-shadow: 0 0 10px 10px #F7F1E5;
+}
+.galeri5 img{
+    width: 25%;
+    float: left;
+   
+}
+
+
+
+
+.d2ddesign{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(270deg, #2df59a, #049cf9);
+    position: relative;
+    margin: auto;
+}
+.gercekci{
+    width: 100%;
+    background: linear-gradient(270deg, #2E8B57, #4169E1);
+    position: relative;
+    height: 115vh;
+}
+.karakalem{
+    width: 100%;
+    background: linear-gradient(270deg, #2c5876, #4d4379);
+    position: relative;
+    height: 115vh;
+}
+.logox{
+
+    width: 100%;
+    background: linear-gradient(270deg, #f5d365, #fca186);
+    position: relative;
+
+    height: 115vh;
+}
+.colorfulx{
+    width: 100%;
+    background: linear-gradient(270deg, #808080, #FF6961);
+    position: relative;
+    height: 105vh;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+    Sıfırlama ve diğer kodlar
+**/
+@import"https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --animation-speed: 300ms;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--animation-speed) all;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(270deg, #0AABF0, #18e1f5);
+    border-right: 1px solid #ddd;
+    transform: translateX(-100%);
+    transition: var(--animation-speed) transform;
+}
+.menu ul li {
+    color: white;
+}
+.menu ul li a {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    color: white;
+}
+.menu ul li a:hover {
+    background-color: #049cf9;
+}
+
+.container {
+    height: 100%;
+    transition: var(--animation-speed) transform;
+}
+.container .header {
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 20px;
+}
+.container .actions {
+    margin-left: auto;
+}
+.container .logo {
+    color: #222;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+
+/**
+    Hamburger menu kodları
+**/
+.hamburger-menu {
+    --height: 5px;
+    --space: calc(var(--height) * 2.5);
+    --animation-speed: 300ms;
+    width: calc(var(--space) * 4);
+    height: calc(var(--height) + (var(--space) * 2));
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.hamburger-menu span,
+.hamburger-menu span::before,
+.hamburger-menu span::after {
+    content: '';
+    display: block;
+    height: var(--height);
+    width: 100%;
+    background: #222;
+}
+.hamburger-menu span {
+    transform: translateY(var(--space));
+    transition: var(--animation-speed) var(--animation-speed) background-color;
+}
+.hamburger-menu span::before {
+    position: absolute;
+    bottom: var(--space);
+    transition: var(--animation-speed) transform, var(--animation-speed) var(--animation-speed) bottom;
+}
+.hamburger-menu span::after {
+    position: absolute;
+    top: var(--space);
+    transition: var(--animation-speed) transform, var(--animation-speed) var(--animation-speed) top;
+}
+
+#menu-toggle {
+    display: none;
+}
+#menu-toggle:checked ~ nav.menu {
+    transform: translateX(0);
+}
+#menu-toggle:checked ~ .container {
+    transform: translateX(300px);
+}
+#menu-toggle:checked ~ .container .backdrop {
+    opacity: 1;
+    visibility: visible;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span {
+    background: transparent;
+    transition: var(--animation-speed) background-color;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span::before {
+    transform: rotate(-45deg);
+    bottom: 0;
+    background-color: black;
+    transition: var(--animation-speed) var(--animation-speed) transform, var(--animation-speed) bottom;
+}
+#menu-toggle:checked ~ .container .hamburger-menu span::after {
+    transform: rotate(45deg);
+    top: 0;
+    background-color: black;
+    transition: var(--animation-speed) var(--animation-speed) transform, var(--animation-speed) top;
+}
+
+
+
+
+@media (max-width:600px){
+    .cerceve1{
+        width: 60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 20%;
+    }
+    .h12ddiv{
+        margin-inline-start: 20%;
+    }
+
+    .cerceve2{
+        width: 60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 20%;
+    }
+    .h1realdiv{
+        margin-inline-start: 20%;
+    }
+
+    .cerceve3{
+        width: 60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 20%;
+    }
+    .h1pencildiv{
+        margin-inline-start: 20%;
+    }
+
+    .cerceve4{
+        width: 60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 20%;
+    }
+    .h1logodiv{
+        margin-inline-start: 20%;
+    }
+
+    .cerceve5{
+        width: 60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 20%;
+    }
+    .h1colerfuldiv{
+        margin-inline-start: 20%;
+    }
+}
+@media (max-width:1000px){
+
+    .cerceve1{
+        width: 40%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 25%;
+    }
+    .h12ddiv{
+        margin-inline-start: 25%;
+    }
+    
+    .cerceve2{
+        width: 40%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 25%;
+    }
+    .h1realdiv{
+        margin-inline-start: 25%;
+    }
+
+    .cerceve3{
+        width: 40%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 25%;
+    }
+    .h1pencildiv{
+        margin-inline-start: 25%;
+    }
+
+    .cerceve4{
+        width: 40%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 25%;
+    }
+    .h1logodiv{
+        margin-inline-start: 25%;
+    }
+
+    .cerceve5{
+        width: 40%;
+        overflow:hidden;
+        box-sizing: border-box;
+        margin-inline-start: 25%;
+    }
+    .h1colerfuldiv{
+        margin-inline-start: 25%;
+    }
+}
